@@ -13,7 +13,6 @@ namespace Epam.Task1.Sequence
             Console.WriteLine("This is a sequence generator. Enter your number and then press button Enter");
             int number = new ResultParser().ParseResult();
             List<int> collection = new List<int>();
-            StringBuilder stringBuilder = new StringBuilder();
             for (int i = 1; i <= number; i++)
             {
                 collection.Add(i);
@@ -22,14 +21,13 @@ namespace Epam.Task1.Sequence
             {
                 if (x != number)
                 {
-                    stringBuilder.Append(x).Append(", ");
+                    Console.Write($"{x}, ");
                 }
                 else
                 {
-                    stringBuilder.Append(x).Append(" ");
+                    Console.Write($"{x} ");
                 }
             });
-            Console.Write(stringBuilder);
         }
     }
 }
