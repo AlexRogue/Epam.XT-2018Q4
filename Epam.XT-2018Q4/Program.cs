@@ -10,6 +10,7 @@ namespace Epam.XT_2018Q4
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is a star generator. Enter your number and then press button Enter");
             ResultParser resultParser = new ResultParser();
             int number = resultParser.ParseResult();
             StarProducer starProducer = new StarProducer(number);

@@ -8,9 +8,10 @@ namespace Epam.Task1.Simple
         public static void Main()
         {
             {
+                Console.WriteLine("This is a \"Prime number chacking machine\". Enter your number and then press button Enter");
                 ResultParser resultParser = new ResultParser();
                 var number = resultParser.ParseResult();
-                CheckNumber ob = new CheckNumber(number);
+                NumberChecker ob = new NumberChecker(number);
                 if (ob.IsPrime())
                 {
                     Console.WriteLine(number + " is a prime number.");
@@ -20,24 +21,6 @@ namespace Epam.Task1.Simple
                     Console.WriteLine(number + " is not a prime number.");
                 }
              }
-        }
-    }
-
-    class CheckNumber
-    {
-        int number;
-
-        public CheckNumber(int number)
-        {
-            this.number = number;
-        }
-
-
-        public bool IsPrime()
-        {
-            for (int i = 2; i < number; i++)
-                if ((number % i) == 0) return false;
-            return true;
         }
     }
 }

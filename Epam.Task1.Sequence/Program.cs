@@ -9,8 +9,8 @@ namespace Epam.Task1.Sequence
     class Program
     {
         static void Main(string[] args)
-        { 
-            Console.WriteLine("Enter your number. Press button Enter");
+        {
+            Console.WriteLine("This is a sequence generator. Enter your number and then press button Enter");
             int number = new ResultParser().ParseResult();
             List<int> collection = new List<int>();
             StringBuilder stringBuilder = new StringBuilder();
