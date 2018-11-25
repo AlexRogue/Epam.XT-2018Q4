@@ -10,25 +10,25 @@ namespace Epam.Task1._3.AnotherTriangle
     {
         static void Main(string[] args)
         {
-            int numberoflayer = int.Parse(Console.ReadLine());
-            Console.WriteLine("Print paramid");
-            for (int i = 1; i <= numberoflayer; i++) 
+            Console.WriteLine("Enter number to print pyramid");
+            int N = int.Parse(Console.ReadLine());
+            for (int triangle = 0; triangle <= N; triangle++)
             {
-                for (int a = 1; a <= (numberoflayer - i); a++)
+                for (int j = 0; j <= N + triangle; j++)
                 {
-                    Console.Write(" ");
-                }
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("*");
-                }
-                for (int j = (i - 1); j >= 1; j--)
-                {
-                    Console.Write("*");
+                    if (j >= N - triangle)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
                 }
                 Console.WriteLine();
             }
-        }
-    }
+         }
+     }
 }
+
 

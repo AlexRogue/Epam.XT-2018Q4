@@ -8,17 +8,23 @@ namespace Epam.Task1._5.SumOfNumbers
 {
     class Program
     {
-        static List<int> list = new List<int>();
         static void Main(string[] args)
         {
-            for (int i = 0; i < 1000; i++)
+            Random random = new Random();
+            int sum = 0;
+            int[,] array = new int[3, 3];
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    list.Add(i);    
+                    array[i, j] = random.Next(-15, 15);
+                    if ((i + j) % 2 == 0)
+                    {
+                        sum += array[i, j];
+                    }
                 }
             }
-           var y =  list.Sum();
+            Console.WriteLine(sum);
         }
     }
 }
