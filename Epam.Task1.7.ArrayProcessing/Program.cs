@@ -10,35 +10,33 @@ namespace Epam.Task1._7.ArrayProcessing
     {
         static void Main(string[] args)
         {
-            int[] array = new int[9];
+            int[] array = new int[100];
             char min;
             char max;
             bool isNumber;
             do
             {
                 Console.WriteLine("Enter min number");
-                char.TryParse(Console.ReadLine(), out min);
-                isNumber = char.IsDigit(min);
-                if (!isNumber)
+                char.TryParse(Console.ReadLine(), out min);  
+                if (!char.IsNumber(min))
                 {
                     Console.WriteLine("Exceptions");
                     break;
                 }
                 array[0] = min;
-            } while (!isNumber);
+            } while (!char.IsNumber(min));
 
             do
             {
                 Console.WriteLine("Enter max number");
                 char.TryParse(Console.ReadLine(), out max);
-                isNumber = char.IsDigit(max);
-                if (!isNumber)
+                if (!char.IsNumber(max))
                 {
                     Console.WriteLine("Exceptions");
                     break;
                 }
                 array[1] = min;
-            } while (!isNumber);
+            } while (!char.IsNumber(max));
 
             Random random = new Random();
             for (int i = 2; i < array.Length - 2; i++)

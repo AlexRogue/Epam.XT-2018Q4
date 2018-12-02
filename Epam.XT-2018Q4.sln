@@ -3,35 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Square", "Epam.XT-2018Q4\Epam.Task1.Square.csproj", "{A4A7C702-9B2E-4196-9188-7AC7FA2DAE91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.Square", "Epam.XT-2018Q4\Task1.Square.csproj", "{A4A7C702-9B2E-4196-9188-7AC7FA2DAE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Sequence", "Epam.Task1.Sequence\Epam.Task1.Sequence.csproj", "{C20A7781-78D6-47D0-A354-5FB2C5664A50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.Sequence", "Epam.Task1.Sequence\Task1.Sequence.csproj", "{C20A7781-78D6-47D0-A354-5FB2C5664A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.Simple", "Epam.Task1.Simple\Epam.Task1.Simple.csproj", "{EC12C46A-A011-4F73-96FC-A39B692678FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.Simple", "Epam.Task1.Simple\Task1.Simple.csproj", "{EC12C46A-A011-4F73-96FC-A39B692678FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.1.Rectangle", "Epam.Task1.1.Rectangle\Epam.Task1.1.Rectangle.csproj", "{CEF1E196-3BEB-41E6-A0A7-09A0425E741E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.1.Rectangle", "Epam.Task1.1.Rectangle\Task1.1.Rectangle.csproj", "{CEF1E196-3BEB-41E6-A0A7-09A0425E741E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.12.CharDouble", "Epam.Task1.12\Epam.Task1.12.CharDouble.csproj", "{9AA74326-E790-4892-845E-9F7D2895BE75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.12.CharDouble", "Epam.Task1.12\Task1.12.CharDouble.csproj", "{9AA74326-E790-4892-845E-9F7D2895BE75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.2.Triangle", "Epam.Task1.1.Triangle\Epam.Task1.2.Triangle.csproj", "{968B67EB-27EB-46EA-B14B-7796DDD86EE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.2.Triangle", "Epam.Task1.1.Triangle\Task1.2.Triangle.csproj", "{968B67EB-27EB-46EA-B14B-7796DDD86EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.3.AnotherTriangle", "Epam.Task1.3.AnotherTriangle\Epam.Task1.3.AnotherTriangle.csproj", "{B73806C7-9050-4FB0-8442-92AE24F1286E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.3.AnotherTriangle", "Epam.Task1.3.AnotherTriangle\Task1.3.AnotherTriangle.csproj", "{B73806C7-9050-4FB0-8442-92AE24F1286E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.5.SumOfNumbers", "Epam.Task1.5.SumOfNumbers\Epam.Task1.5.SumOfNumbers.csproj", "{A51CF9F4-7F51-4623-9020-D305E0B5EEDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.5.SumOfNumbers", "Epam.Task1.5.SumOfNumbers\Task1.5.SumOfNumbers.csproj", "{A51CF9F4-7F51-4623-9020-D305E0B5EEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.9.NonNegativeSum", "Epam.Task1.9.NonNegativeSum\Epam.Task1.9.NonNegativeSum.csproj", "{53E16B96-AA4A-4B99-98D4-3F17ACEFA44A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.9.NonNegativeSum", "Epam.Task1.9.NonNegativeSum\Task1.9.NonNegativeSum.csproj", "{53E16B96-AA4A-4B99-98D4-3F17ACEFA44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.10.2DArray", "PEpam.Task1.10.2DArray\Epam.Task1.10.2DArray.csproj", "{0F77271D-5D61-4889-9CB7-493F6A938CBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.10.2DArray", "PEpam.Task1.10.2DArray\Task1.10.2DArray.csproj", "{0F77271D-5D61-4889-9CB7-493F6A938CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.11.AverageStringLenght", "Epam.Task1.11.AverageStringLenght\Epam.Task1.11.AverageStringLenght.csproj", "{0E2CF4FD-32A0-4808-B1C9-75E5465112DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.11.AverageStringLenght", "Epam.Task1.11.AverageStringLenght\Task1.11.AverageStringLenght.csproj", "{0E2CF4FD-32A0-4808-B1C9-75E5465112DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.8.NoPositive", "Epam.Task1.8.NoPositive\Epam.Task1.8.NoPositive.csproj", "{5E058412-42BB-40BE-B8A4-035672A317E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.8.NoPositive", "Epam.Task1.8.NoPositive\Task1.8.NoPositive.csproj", "{5E058412-42BB-40BE-B8A4-035672A317E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.7.ArrayProcessing", "Epam.Task1.7.ArrayProcessing\Epam.Task1.7.ArrayProcessing.csproj", "{63D5D6E8-2CE0-4AF1-B4E9-EA094F874F42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.7.ArrayProcessing", "Epam.Task1.7.ArrayProcessing\Task1.7.ArrayProcessing.csproj", "{63D5D6E8-2CE0-4AF1-B4E9-EA094F874F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.4.XmasTree", "Epam.Task1.4.XmasTree\Epam.Task1.4.XmasTree.csproj", "{4ECC9EB1-2363-488D-97FA-E7F8A197EFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.4.XmasTree", "Epam.Task1.4.XmasTree\Task1.4.XmasTree.csproj", "{4ECC9EB1-2363-488D-97FA-E7F8A197EFAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task1.6.FontAdjustment", "Epam.Task1.6.FontAdjustment\Epam.Task1.6.FontAdjustment.csproj", "{E000DDFA-97F1-4E8E-8465-6CBE9AD3E02D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.6.FontAdjustment", "Epam.Task1.6.FontAdjustment\Task1.6.FontAdjustment.csproj", "{E000DDFA-97F1-4E8E-8465-6CBE9AD3E02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.1.Round", "Epam.Task2.1.Round\Task2.1.Round.csproj", "{F426740D-FC44-4B28-B035-BD31DD02A09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2.2.Triangle", "Epam.Test2.2.Triangle\Test2.2.Triangle.csproj", "{862B80A5-8802-4C8C-91C1-B94FEA8FC3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.2.3.User", "Epam.Task.2.3.User\Task.2.3.User.csproj", "{72528FEA-980A-4BF8-9E1E-DD53B63C6031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.5.Employee", "Epam.Task2.5.Employee\Task2.5.Employee.csproj", "{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,22 @@ Global
 		{E000DDFA-97F1-4E8E-8465-6CBE9AD3E02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E000DDFA-97F1-4E8E-8465-6CBE9AD3E02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E000DDFA-97F1-4E8E-8465-6CBE9AD3E02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F426740D-FC44-4B28-B035-BD31DD02A09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F426740D-FC44-4B28-B035-BD31DD02A09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F426740D-FC44-4B28-B035-BD31DD02A09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F426740D-FC44-4B28-B035-BD31DD02A09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862B80A5-8802-4C8C-91C1-B94FEA8FC3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862B80A5-8802-4C8C-91C1-B94FEA8FC3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862B80A5-8802-4C8C-91C1-B94FEA8FC3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862B80A5-8802-4C8C-91C1-B94FEA8FC3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72528FEA-980A-4BF8-9E1E-DD53B63C6031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72528FEA-980A-4BF8-9E1E-DD53B63C6031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72528FEA-980A-4BF8-9E1E-DD53B63C6031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72528FEA-980A-4BF8-9E1E-DD53B63C6031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
