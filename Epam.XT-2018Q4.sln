@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.2.3.User", "Epam.Task.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.5.Employee", "Epam.Task2.5.Employee\Task2.5.Employee.csproj", "{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.2.7.VectorGraphicsEditor", "Task.2.7.VectorGraphicsEditor\Task.2.7.VectorGraphicsEditor.csproj", "{B6062410-9D5F-4BD2-A6FB-BFD11032C538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
