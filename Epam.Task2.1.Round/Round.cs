@@ -11,6 +11,10 @@ namespace Epam.Task2._1.Round
         double radius;
         double centerX;
         double centerY;
+        string centerXChecker;
+        string centerYChecker;
+        double value = 0;
+        bool check;
 
         public double C => 2 * Math.PI * Radius;
         public double S => Math.PI * Math.Pow(Radius, 2);
@@ -37,10 +41,10 @@ namespace Epam.Task2._1.Round
         {
             get
             {
-                if (centerX == 0)
+                if (centerXChecker == null)
                 {
                     Console.WriteLine("Insert coordinate of X (use comma instead of dot to separate fraction)");
-                    centerX = CenterCheck();
+                    centerX = CenterCoordinatesCheck(ref centerXChecker);
                 }
                     return centerX;
             }
@@ -50,15 +54,14 @@ namespace Epam.Task2._1.Round
         {
             get
             {
-                if (centerY == 0)
+                if (centerYChecker == null)
                 {
                     Console.WriteLine("Insert coordinate of Y (use comma instead of dot to separate fraction)");
-                    centerY = CenterCheck();
+                    centerY = CenterCoordinatesCheck(ref centerYChecker);
                 }
                     return centerY;
             }
         }
-
 
         private double RadiusCheck()
         {
@@ -71,13 +74,18 @@ namespace Epam.Task2._1.Round
             return value;
         }
 
-        private double CenterCheck()
-        {
-            double value = 0;
-            while (!double.TryParse(Console.ReadLine(), out value))
+        private double CenterCoordinatesCheck(ref string coordinateChecker)
+        {            
+            do
             {
-                Console.WriteLine("Try to insert coordinate again");
+                coordinateChecker = Console.ReadLine();
+                check = !double.TryParse(coordinateChecker, out value);
+                if (check)
+                {
+                    Console.WriteLine("Try to insert coordinate again");
+                }
             }
+            while (check);
             return value;
         }
 

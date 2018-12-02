@@ -8,18 +8,52 @@ namespace Epam.Test2._2.Triangle
 {
     class Program
     {
-        double sideA;
-        double sideB;
-        double sideC;
-
-        public void GetArea()
+        static void Main(string[] args)
         {
-            Console.WriteLine("");
-        }
+            Triangle triangle = new Triangle();
+            double value;
+            while (true)
+            {
+                
+                    Console.WriteLine("Insert:");
+                    Console.WriteLine($"{"       "}1: Set lenght of sides");
+                    Console.WriteLine($"{"       "}2: Show area of Triangle");
+                    Console.WriteLine($"{"       "}3: Show perimetr of Triangle");
+                    Console.WriteLine($"{"       "}4: Create new Triangle");
+                    Console.WriteLine($"{"       "}5: Show Triangle sides");
+                    if (int.TryParse(Console.ReadLine(), out int option))
+                    {
+                        switch (option)
+                        {
+                            case 1:
+                                triangle = new Triangle();
+                                triangle.SetSides();
+                                break;
 
-        public void GetPerimetr()
-        {
-            Console.WriteLine($"Perimetr equals: {sideA}");
-        }
+                            case 2:
+                                triangle.ShowArea();
+                                break;
+
+                            case 3:
+                                triangle.ShowPerimetr();
+                                break;
+
+                            case 4:
+                                triangle = new Triangle();
+                                break;
+
+                            case 5:
+                                triangle.SetSides();
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error! Option not found.");
+                    }
+ 
+                
+            }
+       }
     }
 }
