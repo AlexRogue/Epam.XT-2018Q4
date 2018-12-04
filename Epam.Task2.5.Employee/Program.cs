@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task._2._7.VectorGraphicsEditor
+namespace Epam.Task2._5.Employee
 {
-    public abstract class Creator 
+    class Program
     {
-        public abstract IFigure ReturnConcreteFigure();
+        public static void Main(string[] args)
+        {
+        }
     }
 }

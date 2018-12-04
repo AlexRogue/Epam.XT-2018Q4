@@ -96,7 +96,7 @@ namespace Epam.Test2._2.Triangle
 
         public bool IsTriangleExist()
         {
-            while (!(SideA < SideB + SideC) & !(SideB < SideA + SideC) & !(SideC < SideA + SideB))
+            while (!(this.SideA < this.SideB + this.SideC) & !(this.SideB < this.SideA + this.SideC) & !(this.SideC < this.SideA + this.SideB))
             {
                 Console.WriteLine("The Triangle is exist! Insert lenght of sides again");
                 return true;

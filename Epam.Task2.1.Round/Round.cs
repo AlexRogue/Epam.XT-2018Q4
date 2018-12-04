@@ -65,11 +65,11 @@ namespace Epam.Task2._1.Round
 
         private double RadiusCheck()
         {
-            Console.WriteLine("Insert Radius (use comma instead of dot to separate fraction)");
+            Console.WriteLine("Enter Radius (use comma instead of dot to separate fraction)");
             double value = 0;   
-            while (!double.TryParse(Console.ReadLine(), out value) | value <= 0)
+            while (!double.TryParse(Console.ReadLine(), out value) | value < 0)
             {
-                Console.WriteLine("Try to insert Radius again");
+                Console.WriteLine("Try to enter Radius again");
             }
             return value;
         }

@@ -41,6 +41,14 @@
     <Compile Include="Line\Line.cs" />
     <Compile Include="Line\LineCreator.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Rectangle\Rectangle.cs" />
+    <Compile Include="Rectangle\RectangleCreator.cs" />
+    <Compile Include="Ring\Ring.cs" />
+    <Compile Include="Ring\RingCreator.cs" />
+    <Compile Include="Round\Round.cs" />
+    <Compile Include="Round\RoundCreator.cs" />
+    <Compile Include="Сircle\Circle.cs" />
+    <Compile Include="Сircle\CircleCreator.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

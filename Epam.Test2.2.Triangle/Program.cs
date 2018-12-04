@@ -11,7 +11,6 @@ namespace Epam.Test2._2.Triangle
         static void Main(string[] args)
         {
             Triangle triangle = new Triangle();
-            double value;
             while (true)
             {
                 

@@ -8,22 +8,21 @@ namespace Task._2._7.VectorGraphicsEditor
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Какую фигуру хочешь?");
+            while (true)
+            {
+                Console.WriteLine("What figure do you want to create?");
 
+                Console.WriteLine("Enter 1, if you want create a line");
+                Console.WriteLine("Enter 2, if you want create a circle");
+                Console.WriteLine("Enter 3, if you want create a rectangle");
+                Console.WriteLine("Enter 4, if you want create a round");
+                Console.WriteLine("Enter 5, if you want create a ring");
 
-
-            Console.WriteLine("Нажми 1, если хочешь линию");
-            Console.WriteLine("Нажми 2, если хочешь окружность");
-            Console.WriteLine("Нажми 3, если хочешь прямоугольник");
-            Console.WriteLine("Нажми 4, если хочешь круг");
-            Console.WriteLine("Нажми 5, если хочешь кольцо");
-
-            int.TryParse(Console.ReadLine(), out int option);
-            new Context(option);
-                 
-            
+                IFigure figure = new Context().GetFigure().ReturnConcreteFigure();
+                figure.Show();
+            }
         }
     }
 }

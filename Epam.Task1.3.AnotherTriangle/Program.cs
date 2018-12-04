@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Epam.Task1._3.AnotherTriangle
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Enter number to print pyramid");
-            int N = int.Parse(Console.ReadLine());
-            for (int triangle = 0; triangle <= N; triangle++)
+            int n = int.Parse(Console.ReadLine());
+            for (int triangle = 0; triangle <= n; triangle++)
             {
-                for (int j = 0; j <= N + triangle; j++)
+                for (int j = 0; j <= n + triangle; j++)
                 {
-                    if (j >= N - triangle)
+                    if (j >= n - triangle)
                     {
                         Console.Write("*");
                     }

@@ -8,7 +8,7 @@ namespace Task._2._7.VectorGraphicsEditor
 {
     public interface IFigure
     {
-        void Build();
+        //double Build();
         void Show();
     }
 }

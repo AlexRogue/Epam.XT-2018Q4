@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Task._2._7.VectorGraphicsEditor
 {
-    class LineCreator : Creator
+    class RingCreator : Creator
     {
         public override IFigure ReturnConcreteFigure()
         {
-            return new Line();
+            return new Ring();
         }
     }
 }

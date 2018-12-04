@@ -13,7 +13,6 @@ namespace Epam.Task1._7.ArrayProcessing
             int[] array = new int[100];
             char min;
             char max;
-            bool isNumber;
             do
             {
                 Console.WriteLine("Enter min number");
