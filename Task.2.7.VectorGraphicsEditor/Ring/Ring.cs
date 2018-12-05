@@ -18,7 +18,7 @@ namespace Task._2._7.VectorGraphicsEditor
         {
             do
             {
-                Console.WriteLine("Введите данны ");
+                Console.WriteLine("Введите данныe ");
                 roundOne = new Round();
                 roundTwo = new Round();
             }
@@ -41,7 +41,8 @@ namespace Task._2._7.VectorGraphicsEditor
 
             if (Math.Abs(roundOne.Radius - roundTwo.Radius) < EPSILON)
             {
-                             
+                Console.WriteLine("Вы описали окружность. Попробуйте еще раз!");
+                return false;
             }
 
             if (length <= deltaR)
