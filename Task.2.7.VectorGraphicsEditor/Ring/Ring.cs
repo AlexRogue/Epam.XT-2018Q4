@@ -8,8 +8,9 @@ namespace Task._2._7.VectorGraphicsEditor
 {
     class Ring : IFigure
     {
-        public Round roundOne;
-        public Round roundTwo;
+        private Round roundOne;
+        private Round roundTwo;
+        const double EPSILON = 0.001;
 
         private double GetArea() => Math.Abs(roundTwo.area - roundOne.area);
 
@@ -28,7 +29,7 @@ namespace Task._2._7.VectorGraphicsEditor
         private bool Checked()
         {
             double deltaR;
-            var lenght = Math.Sqrt(Math.Pow((roundOne.CenterY - roundTwo.CenterY), 2) + Math.Pow((roundOne.CenterX - roundTwo.CenterX), 2));
+            var length = Math.Sqrt(Math.Pow((roundOne.CenterY - roundTwo.CenterY), 2) + Math.Pow((roundOne.CenterX - roundTwo.CenterX), 2));
             if (roundOne.Radius >= roundTwo.Radius)
             {
                 deltaR = roundOne.Radius - roundTwo.Radius;
@@ -38,7 +39,12 @@ namespace Task._2._7.VectorGraphicsEditor
                 deltaR = roundTwo.Radius - roundOne.Radius;
             }
 
-            if (lenght <= deltaR)
+            if (Math.Abs(roundOne.Radius - roundTwo.Radius) < EPSILON)
+            {
+                             
+            }
+
+            if (length <= deltaR)
             {
                 return true;
             }

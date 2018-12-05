@@ -5,32 +5,30 @@ namespace Task._2._7.VectorGraphicsEditor
 {
     class Circle : IFigure
     {
-        private double centerX;
-        private double centerY;
-        private double radius;
-        private double circumference;
+        public double Circumference { get; }
 
-        public double Circumference => circumference;
-        public double Radius => radius;
-        public double CenterX => centerX;
-        public double CenterY => centerY;
+        public double Radius { get; }
+
+        public double CenterX { get; }
+
+        public double CenterY { get; }
 
         public Circle()
         {
-            centerX = InsertValue("Введите координату центра X");
-            centerY = InsertValue("Введите координату центра Y");
-            radius = RadiusCheck();
-            circumference = GetCircumference();
+            CenterX = InsertValue("Enter coordinates of center X");
+            CenterY = InsertValue("Enter coordinates of center Y");
+            Radius = RadiusCheck();
+            Circumference = GetCircumference();
         }
 
 
-        private double InsertValue(string instruction)
+        private static double InsertValue(string instruction)
         {
             Console.WriteLine(instruction);
             double value;
             while (!double.TryParse(Console.ReadLine(), out value))
             {
-                Console.WriteLine("Введите значение еще раз");
+                Console.WriteLine("You entered inappropriate number. Enter value again");
             }
             return value;
         }
@@ -46,17 +44,17 @@ namespace Task._2._7.VectorGraphicsEditor
             return value;
         }
 
-        public double GetCircumference()
+        private double GetCircumference()
         {
-            return 2 * Math.PI * radius;
+            return 2 * Math.PI * Radius;
         }
 
         public void Show()
         {
-            Console.WriteLine("Это окружность");
-            Console.WriteLine($"Центр окружности ({centerX};{centerY})");
-            Console.WriteLine($"Радиус {radius}");
-            Console.WriteLine($"Длина окружности {circumference}");
+            Console.WriteLine("This is a Circle");
+            Console.WriteLine($"Center of circle: {CenterX};{CenterY}");
+            Console.WriteLine($"Radius: {Radius}");
+            Console.WriteLine($"Length: {Circumference}");
         }
     }
 }

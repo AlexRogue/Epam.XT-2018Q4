@@ -16,16 +16,16 @@ namespace Epam.Task2._1.Round
         double value = 0;
         bool check;
 
-        public double C => 2 * Math.PI * Radius;
-        public double S => Math.PI * Math.Pow(Radius, 2);
+        private double C => 2 * Math.PI * Radius;
+        private double S => Math.PI * Math.Pow(Radius, 2);
 
         public Round()
         {
             Console.WriteLine("New Round created");
         }
-        
 
-        public double Radius
+
+        private double Radius
         {
             get
             {
@@ -37,7 +37,7 @@ namespace Epam.Task2._1.Round
             }
         }
 
-        public double CenterX
+        private double CenterX
         {
             get
             {
@@ -50,7 +50,7 @@ namespace Epam.Task2._1.Round
             }
         }
 
-        public double CenterY
+        private double CenterY
         {
             get
             {

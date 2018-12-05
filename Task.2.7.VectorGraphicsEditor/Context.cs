@@ -33,25 +33,25 @@ namespace Task._2._7.VectorGraphicsEditor
 
         public Creator GetFigure()
         {
-
             switch (option)
-                {
-                    case 1:
-                        creator = new LineCreator();
+            {
+                case 1:
+                    creator = new LineCreator();
                     break;
-                    case 2:
-                        creator = new CircleCreator();
+                case 2:
+                    creator = new CircleCreator();
                     break;
                 case 3:
-                         creator = new RectangleCreator();
+                    creator = new RectangleCreator();
                     break;
                 case 4:
-                         creator = new RoundCreator();
+                    creator = new RoundCreator();
                     break;
                 case 5:
-                         creator = new RingCreator();
+                    creator = new RingCreator();
                     break;
             }
+
             return creator;
         }
     }

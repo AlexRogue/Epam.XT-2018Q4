@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace Task._2._7.VectorGraphicsEditor
 {
     public interface IFigure
-    {
-        //double Build();
+    {   
         void Show();
     }
 }

@@ -62,7 +62,7 @@ namespace Epam.Task1._1.Rectangle
             if (d % 1 > 0)
             {
                   return true;
-            }
+            };
             return false;
         }
 
