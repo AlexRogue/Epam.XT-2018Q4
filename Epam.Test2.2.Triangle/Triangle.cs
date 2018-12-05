@@ -14,9 +14,9 @@ namespace Epam.Test2._2.Triangle
         double area;
         double perimetr;
 
-        public double Area => CheckArea();
+        private double Area => CheckArea();
 
-        public double Perimetr => CheckPerimetr();
+        private double Perimetr => CheckPerimetr();
 
          private double CheckArea()
         {
@@ -37,8 +37,7 @@ namespace Epam.Test2._2.Triangle
         }
 
 
-
-        public double SideA
+        private double SideA
         {
             get
             {
@@ -51,7 +50,7 @@ namespace Epam.Test2._2.Triangle
             }
         }
 
-        public double SideB
+        private double SideB
         {
             get
             {
@@ -64,7 +63,7 @@ namespace Epam.Test2._2.Triangle
             }
         }
 
-        public double SideC
+        private double SideC
         {
             get
             {
@@ -84,7 +83,7 @@ namespace Epam.Test2._2.Triangle
             Console.WriteLine($"Enter side C: {SideC}");
         }
 
-        public double CheckSide()
+        private double CheckSide()
         {
             double value = 0;
             while (!double.TryParse(Console.ReadLine(), out value) | value <= 0)
@@ -94,11 +93,11 @@ namespace Epam.Test2._2.Triangle
             return value;
         }
 
-        public bool IsTriangleExist()
+        private bool IsTriangleExist()
         {
             while (!(this.SideA < this.SideB + this.SideC) & !(this.SideB < this.SideA + this.SideC) & !(this.SideC < this.SideA + this.SideB))
             {
-                Console.WriteLine("The Triangle is exist! Insert lenght of sides again");
+                Console.WriteLine("The Triangle is exist! Insert length of sides again");
                 return true;
             }
             Console.WriteLine("The Triangle doesn't exist!");
@@ -111,7 +110,7 @@ namespace Epam.Test2._2.Triangle
         {
             if (IsTriangleExist())
             {
-                Console.WriteLine($"Area equals: {CheckArea()}");
+                Console.WriteLine($"Area equals: {Area}");
             }
         }
 
@@ -119,7 +118,7 @@ namespace Epam.Test2._2.Triangle
         {
             if (IsTriangleExist())
             {
-                Console.WriteLine($"Perimetr equals: {CheckPerimetr()}");
+                Console.WriteLine($"Perimetr equals: {Perimetr}");
             }
         }
     }

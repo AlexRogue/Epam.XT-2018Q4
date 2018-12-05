@@ -11,6 +11,8 @@ namespace Epam.Task2._5.Employee
     {
         public static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.Show();
         }
     }
 }

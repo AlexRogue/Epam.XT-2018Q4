@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task._2._7.VectorGraphicsEditor
 {
-    class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace Task._2._7.VectorGraphicsEditor
                 Console.WriteLine("Enter 4, if you want create a round");
                 Console.WriteLine("Enter 5, if you want create a ring");
 
-                IFigure figure = new Context().GetFigure().ReturnConcreteFigure();
+                var figure = new Context().GetFigure().ReturnConcreteFigure();
                 figure.Show();
             }
         }

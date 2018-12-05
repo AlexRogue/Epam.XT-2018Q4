@@ -10,17 +10,17 @@ namespace Epam.Test2._2.Triangle
     {
         static void Main(string[] args)
         {
-            Triangle triangle = new Triangle();
+            var triangle = new Triangle();
             while (true)
             {
                 
                     Console.WriteLine("Insert:");
-                    Console.WriteLine($"{"       "}1: Set lenght of sides");
-                    Console.WriteLine($"{"       "}2: Show area of Triangle");
-                    Console.WriteLine($"{"       "}3: Show perimetr of Triangle");
-                    Console.WriteLine($"{"       "}4: Create new Triangle");
-                    Console.WriteLine($"{"       "}5: Show Triangle sides");
-                    if (int.TryParse(Console.ReadLine(), out int option))
+                    Console.WriteLine("       1: Set length of sides");
+                    Console.WriteLine("       2: Show area of Triangle");
+                    Console.WriteLine("       3: Show perimetr of Triangle");
+                    Console.WriteLine("       4: Create new Triangle");
+                    Console.WriteLine("       5: Show Triangle sides");
+                    if (int.TryParse(Console.ReadLine(), out var option))
                     {
                         switch (option)
                         {

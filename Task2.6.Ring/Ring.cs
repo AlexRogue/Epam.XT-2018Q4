@@ -1,24 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
+using Epam.Task2._1.Round;
 
-namespace Task._2._7.VectorGraphicsEditor
+namespace Task2._6.Ring
 {
-    class Ring : IFigure
+  
+        class Ring 
     {
         private Round roundOne;
         private Round roundTwo;
         const double EPSILON = 0.001;
 
-        private double GetArea() => Math.Abs(roundTwo.area - roundOne.area);
+        private double GetArea() => Math.Abs(roundTwo.Area - roundOne.Area);
 
         public Ring()
         {
             do
             {
-                Console.WriteLine("Введите данныe ");
+                Console.WriteLine("Введите данны ");
                 roundOne = new Round();
                 roundTwo = new Round();
             }
@@ -82,4 +80,4 @@ namespace Task._2._7.VectorGraphicsEditor
             Console.WriteLine($"Площадь кольца {GetArea()}");
         }
     }
-}
+    }
