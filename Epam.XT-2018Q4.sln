@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.5.Employee", "Epam.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.2.7.VectorGraphicsEditor", "Task.2.7.VectorGraphicsEditor\Task.2.7.VectorGraphicsEditor.csproj", "{B6062410-9D5F-4BD2-A6FB-BFD11032C538}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.8.TheGame", "Task2.8.TheGame\Task2.8.TheGame.csproj", "{6A11E1CC-F66F-4755-A244-C4253DD8D509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6062410-9D5F-4BD2-A6FB-BFD11032C538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A11E1CC-F66F-4755-A244-C4253DD8D509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A11E1CC-F66F-4755-A244-C4253DD8D509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A11E1CC-F66F-4755-A244-C4253DD8D509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A11E1CC-F66F-4755-A244-C4253DD8D509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

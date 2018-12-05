@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Epam.Task2._5.Employee
+namespace Task2._8.TheGame
 {
- 
-    class Program
+    interface IField
     {
-        public static void Main(string[] args)
-        {
-        }
+        int Width { get;}
+        int Height { get; }
     }
 }
