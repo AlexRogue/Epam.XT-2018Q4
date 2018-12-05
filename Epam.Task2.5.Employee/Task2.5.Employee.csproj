@@ -39,8 +39,8 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Task2.3.User\Task2.3.User.csproj">
-      <Project>{f4118324-fb70-49ac-9eea-70ce6fb63517}</Project>
+    <ProjectReference Include="..\User\Task2.3.User.csproj">
+      <Project>{115557d4-e50f-43d9-95cd-10b44ea6e335}</Project>
       <Name>Task2.3.User</Name>
     </ProjectReference>
   </ItemGroup>

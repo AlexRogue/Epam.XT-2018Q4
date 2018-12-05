@@ -8,13 +8,19 @@ namespace Task2._8.TheGame
 {
     class Wolf : Creature
     {
-        public override int Health => 25;
 
-        public override int Movment => throw new NotImplementedException();
+        int health;
+        int move;
+        int arm;
+        int dmg;
 
-        public override int Armor => throw new NotImplementedException();
+        public override int Health => health;
 
-        public override int Damage => throw new NotImplementedException();
+        public override int Movment => move;
+
+        public override int Armor => arm;
+
+        public override int Damage => dmg;
 
         private int coordX;
 
@@ -50,9 +56,19 @@ namespace Task2._8.TheGame
             }  
         }
         
-        public void Attack()
+        public void Attack(Player player)
         {
-
+            if (player.coordX.Equals(coordX) & player.coordY.Equals(coordY))
+            {
+                if (player.Movment > Movment || player.StrenghtBonus > Armor)
+                {
+                    health--;
+                }
+                else
+                {
+                    player.HealthBonus--;
+                }
+            }
         }
 
     }

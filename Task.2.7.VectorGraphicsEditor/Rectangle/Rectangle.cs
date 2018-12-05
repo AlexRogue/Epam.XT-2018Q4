@@ -18,8 +18,6 @@ namespace Task._2._7.VectorGraphicsEditor
         private double dY;
         private double lengthAB;
         private double lengthBC;
-        private double recArea;
-        private double recPerim;
         double angle;
 
         double S => lengthAB * lengthBC;

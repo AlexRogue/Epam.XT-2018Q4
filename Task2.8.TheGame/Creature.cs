@@ -8,11 +8,9 @@ namespace Task2._8.TheGame
 {
     abstract class Creature
     {
-        public abstract int Health { get; }
-        public abstract int Movment { get; }
-        public abstract int Armor { get; }
-        public abstract int Damage { get; }
-        //public abstract int coordX { get; }
-        //public abstract int coordY { get; }
+        public abstract int Health { get; set; }
+        public abstract int Movment { get; set; }
+        public abstract int Armor { get; set; }
+        public abstract int Damage { get; set; }
     }
 }
