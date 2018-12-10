@@ -8,13 +8,6 @@ namespace Epam.Task2._1.Round
 {
     class Round
     {
-        double radius;
-        double centerX;
-        double centerY;
-        string centerXChecker;
-        string centerYChecker;
-        double value = 0;
-        bool check;
 
         public double Area => Math.PI * Math.Pow(Radius, 2);
         private double C => 2 * Math.PI * Radius;

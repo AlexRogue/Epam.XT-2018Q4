@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}</ProjectGuid>
+    <ProjectGuid>{115557D4-E50F-43D9-95CD-10B44EA6E335}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Epam.Task2._5.Employee</RootNamespace>
-    <AssemblyName>Epam.Task2.5.Employee</AssemblyName>
+    <RootNamespace>User</RootNamespace>
+    <AssemblyName>User</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,14 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\User\Task2.3.User.csproj">
-      <Project>{115557d4-e50f-43d9-95cd-10b44ea6e335}</Project>
-      <Name>Task2.3.User</Name>
-    </ProjectReference>
+    <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

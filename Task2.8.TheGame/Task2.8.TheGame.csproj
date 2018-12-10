@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}</ProjectGuid>
+    <ProjectGuid>{6A11E1CC-F66F-4755-A244-C4253DD8D509}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Epam.Task2._5.Employee</RootNamespace>
-    <AssemblyName>Epam.Task2.5.Employee</AssemblyName>
+    <RootNamespace>Task2._8.TheGame</RootNamespace>
+    <AssemblyName>Task2.8.TheGame</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,14 +35,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="AbstractField.cs" />
+    <Compile Include="Apple.cs" />
+    <Compile Include="Cherry.cs" />
+    <Compile Include="Creature.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="IBonus.cs" />
+    <Compile Include="IField.cs" />
+    <Compile Include="Wolf.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\User\Task2.3.User.csproj">
-      <Project>{115557d4-e50f-43d9-95cd-10b44ea6e335}</Project>
-      <Name>Task2.3.User</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
