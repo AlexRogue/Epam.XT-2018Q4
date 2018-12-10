@@ -96,6 +96,7 @@ namespace Task._3._3.DynamicArray
                 if(x == null)
                     Console.WriteLine("null");
             }
+
             Console.WriteLine();
             foreach (var x in d)
             {

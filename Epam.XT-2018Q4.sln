@@ -41,17 +41,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.5.Employee", "Epam.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.2.7.VectorGraphicsEditor", "Task.2.7.VectorGraphicsEditor\Task.2.7.VectorGraphicsEditor.csproj", "{B6062410-9D5F-4BD2-A6FB-BFD11032C538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.6.Ring", "Task2.6.Ring\Task2.6.Ring.csproj", "{6DF67DA0-63E5-4147-A743-8E2033B56B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2.6.Ring", "Task2.6.Ring\Task2.6.Ring.csproj", "{6DF67DA0-63E5-4147-A743-8E2033B56B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.3.User", "Task2.3.User\Task2.3.User.csproj", "{F4118324-FB70-49AC-9EEA-70CE6FB63517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2.3.User", "Task2.3.User\Task2.3.User.csproj", "{F4118324-FB70-49AC-9EEA-70CE6FB63517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.4.MyString", "Task2.4.MyString\Task2.4.MyString.csproj", "{63C3CBF1-D18C-49DE-9ECC-A13BCC8D2F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2.4.MyString", "Task2.4.MyString\Task2.4.MyString.csproj", "{63C3CBF1-D18C-49DE-9ECC-A13BCC8D2F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3.1.Lost", "Task3.1.Lost\Task3.1.Lost.csproj", "{11F4B28A-B37B-4F89-A6CF-9FBEF6EC92C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3.1.Lost", "Task3.1.Lost\Task3.1.Lost.csproj", "{11F4B28A-B37B-4F89-A6CF-9FBEF6EC92C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.3.2.WordFrequency", "Task.3.2.WordFrequency\Task.3.2.WordFrequency.csproj", "{5A8EA3AD-BD9D-43D7-9C67-F5DC0E259936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.3.2.WordFrequency", "Task.3.2.WordFrequency\Task.3.2.WordFrequency.csproj", "{5A8EA3AD-BD9D-43D7-9C67-F5DC0E259936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.3.3.DynamicArray", "Task.3.3.DynamicArray\Task.3.3.DynamicArray.csproj", "{961D954B-7AE2-4A22-9F5B-B9D27AA50D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.3.3.DynamicArray", "Task.3.3.DynamicArray\Task.3.3.DynamicArray.csproj", "{961D954B-7AE2-4A22-9F5B-B9D27AA50D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{BF2B2400-3D06-4613-A0C4-1F46C6A2B4A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{961D954B-7AE2-4A22-9F5B-B9D27AA50D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{961D954B-7AE2-4A22-9F5B-B9D27AA50D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{961D954B-7AE2-4A22-9F5B-B9D27AA50D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2B2400-3D06-4613-A0C4-1F46C6A2B4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2B2400-3D06-4613-A0C4-1F46C6A2B4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2B2400-3D06-4613-A0C4-1F46C6A2B4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2B2400-3D06-4613-A0C4-1F46C6A2B4A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
