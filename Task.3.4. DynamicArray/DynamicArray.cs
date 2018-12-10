@@ -6,9 +6,8 @@ using Task._3._3.Dynamic_arrayay;
 
 namespace Task._3._3.Dynamic_arrayay
 {
-    public class Dynamic_arrayay<T> : IEnumerable, IEnumerable<T>, IEnumerator
-    {
-        
+    public class Dynamic_array<T> : IEnumerable, IEnumerable<T>, ICloneable, IEnumerator
+    {   
         private T[] _array;
         public int Length => _array.Length;
         public int Capacity => _size;
@@ -16,14 +15,19 @@ namespace Task._3._3.Dynamic_arrayay
         private int _size;
         private int Count;
       
-        
         public object Current => _array[_cursor];
 
         public T this[int index]
         {
             get
             {
-                if (index < 0 || index >= _array.Length)
+                if (index < 0)
+                {
+                    var invertArray = _array.Reverse().ToArray();
+                    index = Math.Abs(index);
+                    return invertArray[index];
+                }
+                if (index >= _array.Length)
                 {
                     throw new ArgumentOutOfRangeException();
                 }
@@ -32,21 +36,21 @@ namespace Task._3._3.Dynamic_arrayay
         }
 
 
-        public Dynamic_arrayay()
+        public Dynamic_array()
         {
             _array = new T[8];
             _size = _array.Length;
         }
         
         
-        public Dynamic_arrayay(int i)
+        public Dynamic_array(int i)
         {
             _array = new T[i];
             _size = _array.Length;
         }
         
         
-        public Dynamic_arrayay(IEnumerable<T> collection)
+        public Dynamic_array(IEnumerable<T> collection)
         {
             _array = new T[collection.Count()];
             foreach (var element in collection)
@@ -59,7 +63,7 @@ namespace Task._3._3.Dynamic_arrayay
             _size = _array.Length;
         }
 
-    
+     
 
         public void Add(T new_element)
         {
@@ -130,37 +134,10 @@ namespace Task._3._3.Dynamic_arrayay
                 _array = buffer;
                 Count = Count + collection.Count();
             }
+
+
         }
 
-
-        public IEnumerator<T> GetEnumerator()
-        {
-            foreach (var item in _array)
-            {
-                yield return item;
-            }
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-
-
-
-
-        public bool MoveNext()
-        {
-            if (_cursor < _array.Length)
-                _cursor++;
-
-            return (_cursor != _array.Length);
-        }
-
-        public void Reset()
-        {
-            _cursor = -1;
-        }
 
 
         public bool Remove(int index)
@@ -246,7 +223,44 @@ namespace Task._3._3.Dynamic_arrayay
 
             return success;
         }
-        
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach (var item in _array)
+            {
+                yield return item;
+            }
+        }
+ 
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+
+        public object Clone()
+        {
+            T[] new_arrayay = new T[_array.Length];
+            for (int i = 0;  i < _array.Length; i++)
+            {
+                new_arrayay[i] = _array[i];
+            }
+            return new_arrayay;
+        }
+
+        public bool MoveNext()
+        {
+            if (_cursor < _array.Length - 1)
+                _cursor++;
+
+            return(_cursor != _array.Length);
+        }
+
+        public void Reset()
+        {
+            _cursor = -1;
+        }
+
     }
 }
 

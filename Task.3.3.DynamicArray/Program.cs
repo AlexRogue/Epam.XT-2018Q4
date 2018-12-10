@@ -6,8 +6,6 @@ namespace Task._3._3.DynamicArray
     {
         static void Main(string[] args)
         {
-            var d = new DynamicArray<int>();
-            d.Add<int>(0);
             
         }
     }

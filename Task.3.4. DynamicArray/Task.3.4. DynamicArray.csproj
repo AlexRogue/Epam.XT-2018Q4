@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B46654AD-B870-4C56-8ACB-98ABD6FAD78B}</ProjectGuid>
+    <ProjectGuid>{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Epam.Task2._5.Employee</RootNamespace>
-    <AssemblyName>Epam.Task2.5.Employee</AssemblyName>
+    <RootNamespace>Task._3._4.DynamicArray</RootNamespace>
+    <AssemblyName>Task._3._4.DynamicArray</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,14 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="DynamicArray.cs" />
     <Compile Include="Program.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Task2.3.User\Task2.3.User.csproj">
-      <Project>{f4118324-fb70-49ac-9eea-70ce6fb63517}</Project>
-      <Name>Task2.3.User</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
