@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3EC78408-E0C1-4BC9-AEAB-9F132DCB3FDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task4._6.ISeekYou</RootNamespace>
+    <RootNamespace>Task4_5.ToIntOrNotToInt</RootNamespace>
     <AssemblyName>Task4.6.ISeekYou</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

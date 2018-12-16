@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task4._6.ISeekYou
+namespace Task4_5.ToIntOrNotToInt
 {
-    public static class CheckInt
-    {
-        
-
+    public static class CheckValidInt
+    {        
         public static bool CheckInt(this string str)
         {
             int i = 0;
