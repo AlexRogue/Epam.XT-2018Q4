@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task4_5.ToIntOrNotToInt
+namespace Task4._5TointOrNotToInt
 {
     public static class CheckValidInt
     {        

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3EC78408-E0C1-4BC9-AEAB-9F132DCB3FDA}</ProjectGuid>
+    <ProjectGuid>{CEDC6B0C-AE80-4576-A849-5EC75928A6C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task4_5.ToIntOrNotToInt</RootNamespace>
-    <AssemblyName>Task4.5.ToIntOrNotToInt</AssemblyName>
+    <RootNamespace>Task4._5TointOrNotToInt</RootNamespace>
+    <AssemblyName>Task4.5TointOrNotToInt</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckInt.cs" />
+    <Compile Include="CheckValidInt.cs" />
     <Compile Include="ConcreteChecks.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
