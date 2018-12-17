@@ -1,0 +1,11 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\bin\Debug\netcoreapp2.0\Task.3.2.WordFrequency.deps.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\bin\Debug\netcoreapp2.0\Task.3.2.WordFrequency.runtimeconfig.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\bin\Debug\netcoreapp2.0\Task.3.2.WordFrequency.runtimeconfig.dev.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\bin\Debug\netcoreapp2.0\Task.3.2.WordFrequency.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\bin\Debug\netcoreapp2.0\Task.3.2.WordFrequency.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.AssemblyInfoInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.AssemblyInfo.cs
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\obj\Debug\netcoreapp2.0\Task.3.2.WordFrequency.csprojResolveAssemblyReference.cache

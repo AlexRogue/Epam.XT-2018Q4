@@ -1,0 +1,7 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\bin\Debug\Task._3._4.DynamicArray.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\bin\Debug\Task._3._4.DynamicArray.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\bin\Debug\Task._3._4.DynamicArray.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\obj\Debug\Task.3.4.DynamicArray HM.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\obj\Debug\Task._3._4.DynamicArray.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\obj\Debug\Task._3._4.DynamicArray.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\obj\Debug\Task.3.4.DynamicArray HM.csprojResolveAssemblyReference.cache

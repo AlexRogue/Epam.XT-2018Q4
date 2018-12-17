@@ -1,0 +1,11 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\bin\Debug\netcoreapp2.0\Task.3.3.DynamicArray.deps.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\bin\Debug\netcoreapp2.0\Task.3.3.DynamicArray.runtimeconfig.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\bin\Debug\netcoreapp2.0\Task.3.3.DynamicArray.runtimeconfig.dev.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\bin\Debug\netcoreapp2.0\Task.3.3.DynamicArray.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\bin\Debug\netcoreapp2.0\Task.3.3.DynamicArray.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.AssemblyInfoInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.AssemblyInfo.cs
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\obj\Debug\netcoreapp2.0\Task.3.3.DynamicArray.csprojResolveAssemblyReference.cache

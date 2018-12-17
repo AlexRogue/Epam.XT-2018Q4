@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.3.2.WordFrequency", "..\..\..\RiderProjects\Epam.XT-2018Q4\Task.3.2.WordFrequency\Task.3.2.WordFrequency.csproj", "{016D977C-5E9F-43EE-9D8A-8A4605B03288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.3.3.DynamicArray", "..\..\..\RiderProjects\Epam.XT-2018Q4\Task.3.3.DynamicArray\Task.3.3.DynamicArray.csproj", "{5D9273A9-F2D4-4F2B-B36C-69E394EEA0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.3.4.DynamicArray HM", "..\..\..\RiderProjects\Epam.XT-2018Q4\Task.3.4. DynamicArray\Task.3.4.DynamicArray HM.csproj", "{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3.1.Lost", "..\..\..\RiderProjects\Epam.XT-2018Q4\Task3.1.Lost\Task3.1.Lost.csproj", "{E05AF540-BAB4-4272-9A34-473897C647D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{016D977C-5E9F-43EE-9D8A-8A4605B03288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016D977C-5E9F-43EE-9D8A-8A4605B03288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016D977C-5E9F-43EE-9D8A-8A4605B03288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016D977C-5E9F-43EE-9D8A-8A4605B03288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9273A9-F2D4-4F2B-B36C-69E394EEA0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9273A9-F2D4-4F2B-B36C-69E394EEA0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9273A9-F2D4-4F2B-B36C-69E394EEA0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9273A9-F2D4-4F2B-B36C-69E394EEA0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0018C8CA-B0C0-41D4-AADE-D2525B96D7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05AF540-BAB4-4272-9A34-473897C647D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05AF540-BAB4-4272-9A34-473897C647D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05AF540-BAB4-4272-9A34-473897C647D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05AF540-BAB4-4272-9A34-473897C647D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388F6C39-52EC-4A97-BCFB-FAC02F2B8A6C}
+	EndGlobalSection
+EndGlobal
