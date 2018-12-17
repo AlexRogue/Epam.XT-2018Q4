@@ -1,0 +1,13 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.pdb
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.exe.config
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.exe
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\bin\Debug\Task.4.3.SortingUnit.pdb
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.exe
+C:\Users\Alexandr\source\repos\Task4\Task.4.3.SortingUnit\obj\Debug\Task.4.3.SortingUnit.pdb

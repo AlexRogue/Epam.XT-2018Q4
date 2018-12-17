@@ -1,0 +1,13 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.pdb
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.exe.config
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.exe
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\bin\Debug\Task4.1.CustomSort.pdb
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.exe
+C:\Users\Alexandr\source\repos\Task4\Task4.1.CustomSort\obj\Debug\Task4.1.CustomSort.pdb
