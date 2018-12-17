@@ -1,0 +1,6 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\bin\Debug\Epam.Task1.4.XmasTree.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\bin\Debug\Epam.Task1.4.XmasTree.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\bin\Debug\Epam.Task1.4.XmasTree.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\obj\Debug\Task1.4.XmasTree.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\obj\Debug\Epam.Task1.4.XmasTree.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.4.XmasTree\obj\Debug\Epam.Task1.4.XmasTree.pdb

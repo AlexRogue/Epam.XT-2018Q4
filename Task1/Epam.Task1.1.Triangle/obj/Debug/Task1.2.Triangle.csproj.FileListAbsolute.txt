@@ -1,0 +1,6 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\bin\Debug\Epam.Task1.1.Triangle.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\bin\Debug\Epam.Task1.1.Triangle.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\bin\Debug\Epam.Task1.1.Triangle.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\obj\Debug\Task1.2.Triangle.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\obj\Debug\Epam.Task1.1.Triangle.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task1.1.Triangle\obj\Debug\Epam.Task1.1.Triangle.pdb
