@@ -1,0 +1,12 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\obj\Debug\Task2.1.Round.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\obj\Debug\Epam.Task2.1.Round.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Epam.Task2.1.Round\obj\Debug\Epam.Task2.1.Round.pdb
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.exe.config
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.exe
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\bin\Debug\Epam.Task2.1.Round.pdb
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\obj\Debug\Task2.1.Round.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\obj\Debug\Epam.Task2.1.Round.exe
+C:\Users\Alexandr\source\repos\Task2\Epam.Task2.1.Round\obj\Debug\Epam.Task2.1.Round.pdb
