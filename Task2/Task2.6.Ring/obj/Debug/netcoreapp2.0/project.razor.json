@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Alexandr\\RiderProjects\\Epam.XT-2018Q4\\Task2.6.Ring\\Task2.6.Ring.csproj",
+  "TargetFramework": "netcoreapp2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

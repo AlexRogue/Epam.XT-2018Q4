@@ -1,0 +1,2 @@
+C:\Users\Alexandr\source\repos\Task2\Task2.8.TheGame\obj\Debug\Task2.8.TheGame.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\source\repos\Task2\Task2.8.TheGame\obj\Debug\Task2.8.TheGame.csproj.CoreCompileInputs.cache
