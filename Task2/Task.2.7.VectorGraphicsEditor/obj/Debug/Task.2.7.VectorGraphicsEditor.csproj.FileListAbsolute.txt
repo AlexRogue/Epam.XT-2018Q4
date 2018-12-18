@@ -1,0 +1,13 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.exe.config
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.exe
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.pdb
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.exe.config
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.exe
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\bin\Debug\Task.2.7.VectorGraphicsEditor.pdb
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.exe
+C:\Users\Alexandr\source\repos\Task2\Task.2.7.VectorGraphicsEditor\obj\Debug\Task.2.7.VectorGraphicsEditor.pdb

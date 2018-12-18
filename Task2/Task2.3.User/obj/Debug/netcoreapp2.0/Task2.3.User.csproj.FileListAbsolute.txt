@@ -1,0 +1,11 @@
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\bin\Debug\netcoreapp2.0\Task2.3.User.deps.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\bin\Debug\netcoreapp2.0\Task2.3.User.runtimeconfig.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\bin\Debug\netcoreapp2.0\Task2.3.User.runtimeconfig.dev.json
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\bin\Debug\netcoreapp2.0\Task2.3.User.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\bin\Debug\netcoreapp2.0\Task2.3.User.pdb
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.AssemblyInfoInputs.cache
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.AssemblyInfo.cs
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.dll
+C:\Users\Alexandr\RiderProjects\Epam.XT-2018Q4\Task2.3.User\obj\Debug\netcoreapp2.0\Task2.3.User.pdb
