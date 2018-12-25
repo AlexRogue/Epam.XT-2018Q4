@@ -11,9 +11,9 @@ namespace WindowsFormsApp1
     {
         StreamWriter log = null;
         FileStream fileStream = null;
-        
+
         string trackingDir;
-        
+
 
         public void CreateLog(string logDir, string backupDir)
         {
@@ -27,17 +27,23 @@ namespace WindowsFormsApp1
 
         public void WriteLog(string textLog, string logDir, string backupDir)
         {
+            object obj = new object();
             if (!Directory.Exists(backupDir))
             {
-                CreateLog(logDir, backupDir);               
+                CreateLog(logDir, backupDir);
             }
             else
             {
-                fileStream = new FileStream($"C:\\Backuper\\log.txt", FileMode.Append);
-                log = new StreamWriter(fileStream);
-                log.WriteLine(textLog);
-                log.Close();
-                fileStream.Close();
+                lock (obj)
+                {
+                    using (fileStream = new FileStream($"C:\\Backuper\\log.txt", FileMode.Append))
+                    {
+                        using (log = new StreamWriter(fileStream))
+                        {
+                            log.WriteLine(textLog);
+                        }
+                    }
+                }
             }
         }
 

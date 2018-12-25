@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         private string logDir = "C:\\Backuper\\log.txt";
         private string backupDir = "C:\\Backuper\\";
         private string recoverdate;
+        DateTime recoveryTime;
 
         public FileWatcher()
         {
@@ -50,7 +51,7 @@ namespace WindowsFormsApp1
         {
             fireCount++;
             string currentTime = DateTime.Now.ToString("yyyy/MM/dd HH-mm-ss");
-            string textlog = $"{currentTime}\n{e.FullPath}\n{e.ChangeType}\n";
+            string textlog = $"{Environment.NewLine}{currentTime}{Environment.NewLine}{e.FullPath}{Environment.NewLine}{e.ChangeType}";
             BeginInvoke(new Action(() => {
                 richTextBox1.AppendText(textlog);
                 logCreator.WriteLog(textlog, logDir, backupDir);
@@ -62,7 +63,7 @@ namespace WindowsFormsApp1
         private void OnChanged(object sender, FileSystemEventArgs e)
         {
             string currentTime = DateTime.Now.ToString("yyyy/MM/dd HH-mm-ss");
-            string textlog = $"{currentTime}\n{e.FullPath}\n{e.ChangeType}\n";
+            string textlog = $"{Environment.NewLine}{currentTime}{Environment.NewLine}{e.FullPath}{Environment.NewLine}{e.ChangeType}";
             fireCount++;
             if (fireCount == 1)
             {
@@ -82,7 +83,7 @@ namespace WindowsFormsApp1
         private void OnDeleted(object sender, FileSystemEventArgs e)
         {
             string currentTime = DateTime.Now.ToString("yyyy/MM/dd HH-mm-ss");
-            string textlog = $"{currentTime}\n{e.FullPath}\n{e.ChangeType}\n";
+            string textlog = $"{Environment.NewLine}{currentTime}{Environment.NewLine}{e.FullPath}{Environment.NewLine}{e.ChangeType}";
             fireCount++;
             BeginInvoke(new Action(() =>
             richTextBox1.AppendText(textlog + "\n")
@@ -93,7 +94,7 @@ namespace WindowsFormsApp1
         private void OnRenamed(object sender, FileSystemEventArgs e)
         {
             string currentTime = DateTime.Now.ToString("yyyy/MM/dd HH-mm-ss");
-            string textlog = $"{currentTime}\n{e.FullPath}\nRenamed\n";
+            string textlog = $"{Environment.NewLine}{currentTime}{Environment.NewLine}{e.FullPath}{Environment.NewLine}Renamed";
             BeginInvoke(new Action(() =>
             {
                 richTextBox1.AppendText(textlog);
@@ -104,40 +105,57 @@ namespace WindowsFormsApp1
 
         private void BackupFile (string sourcefn, string destinfn, string backupingfile)
         {
-
-            //var fileName = backupingfile.Substring(backupingfile.LastIndexOf('\\') + 1).Replace(".txt", string.Empty);
-            //var additionOfFileName = backupingfile.Substring(backupingfile.IndexOf('\\'));
-
-
-            string pathtofile = ($"{destinfn}{backupingfile.Replace(".txt", "")}");
+            object obj = new object();
+            var fileName = backupingfile.Substring(backupingfile.LastIndexOf('\\') + 1);
+            var additionOfFileName = backupingfile.Replace(fileName, string.Empty);
+            string pathtofile = $"{destinfn}{additionOfFileName}";
             if (!Directory.Exists(pathtofile))
             {
                 Directory.CreateDirectory(pathtofile);
             }
-            File.Copy(sourcefn, $"{destinfn}{backupingfile}", true);
-            richTextBox1.AppendText($"{destinfn}{backupingfile}");
-            logCreator.WriteLog($"{destinfn}{backupingfile}\n", logDir, backupDir);
+            lock (obj)
+            {
+                File.Copy(sourcefn, $"{pathtofile + fileName}", true);
+            }
+            richTextBox1.AppendText($"\n{pathtofile}{fileName}");
+            logCreator.WriteLog($"{pathtofile}{fileName}\n", logDir, backupDir);
             richTextBox1.AppendText($"\n");
         }
 
         private void RecoverFiles()
         {
-            StreamReader readlog = new StreamReader(logDir);
-            StringBuilder strLog = new StringBuilder();
-            DateTime remainnigdatetime = DateTime.Now;  
-            while (!readlog.EndOfStream)
+            DirectoryInfo directory = new DirectoryInfo(fileSystemWatcher.Path);
+            foreach (var file in directory.GetFiles())
             {
-                strLog.Append(readlog.ReadLine());
+                file.Delete();
             }
-            readlog.Close();
-            string result = strLog.ToString();
-            List<string> listlog = new List<string>(result.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries));
-            for(int i = 0; (remainnigdatetime < dateTimePicker1.Value | i < listlog.Count); i++)  //until <= control datetime
+            foreach (DirectoryInfo subDirectory in directory.GetDirectories())
             {
-                if (listlog[i].StartsWith("2"))
+                subDirectory.Delete(true);
+            }
+            List<string> listlog = new List<string>();
+            StringBuilder strLog = new StringBuilder();
+            DateTime remainnigdatetime = DateTime.Now;
+            using (StreamReader readlog = new StreamReader(logDir))
+            {
+                while (!readlog.EndOfStream)
                 {
-                    remainnigdatetime = DateTime.ParseExact(listlog[i], "yyyy-MM-dd-HH-mm-ss", System.Globalization.CultureInfo.InvariantCulture);
+                    if (readlog.ReadLine() != "")
+                    {
+                        listlog.Add(readlog.ReadLine());
+                    }
+                    //strLog.Append(readlog.ReadLine());
                 }
+            }
+            //var t = strLog.ToString().Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            
+
+            for (DateTime d = DateTime.Parse(listlog[0]); d < recoveryTime ; d = d.AddSeconds(1))  //until <= control datetime
+            {
+                //if (listlog[i].StartsWith("2"))
+                //{
+                //    remainnigdatetime = DateTime.ParseExact(listlog[i], "yyyy-MM-dd-HH-mm-ss", System.Globalization.CultureInfo.InvariantCulture);
+                //}
             }
         }
 
@@ -165,9 +183,11 @@ namespace WindowsFormsApp1
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{recoverdate}", "Error!",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            recoveryTime = dateTimePicker1.Value;
+            RecoverFiles();
         }
+
+        
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
