@@ -1,0 +1,30 @@
+G:\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe.config
+G:\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe
+G:\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.pdb
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csprojAssemblyReference.cache
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.FileWatcher.resources
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.GenerateResource.cache
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.CoreCompileInputs.cache
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.exe
+G:\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csprojAssemblyReference.cache
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.FileWatcher.resources
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.GenerateResource.cache
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.CoreCompileInputs.cache
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Karleg\Desktop\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.FileWatcher.resources
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.GenerateResource.cache
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\Epam.Task05.Backup system.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alexandr\Desktop\Новая папка (3)\Epam.Task05\Epam.Task05.Backup system\obj\Debug\WindowsFormsApp1.pdb
